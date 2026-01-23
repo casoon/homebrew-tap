@@ -11,22 +11,22 @@ class Docgen < Formula
   on_macos do
     on_arm do
       url "https://github.com/casoon/typst-business-templates/releases/download/v#{version}/docgen-aarch64-apple-darwin.tar.gz"
-      sha256 "3d817ee1637d3d00e6e82ecfc4997e7f61cab9ba08a009766567021f109ecdab"
+      sha256 "7fdd282bd81a57c5596d2f506bbdc4ae428e5cf2b75a9519c7897249f6dac9f6"
     end
     on_intel do
       url "https://github.com/casoon/typst-business-templates/releases/download/v#{version}/docgen-x86_64-apple-darwin.tar.gz"
-      sha256 "934bc5a9ce29abdffe27e63f50186d94482dfa7c7d6213e5e3bb34c0588ccf10"
+      sha256 "673154b1b47aff6a18b59e03f335a7f2414413cc8c6a38ebc3ca17864cf794bb"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/casoon/typst-business-templates/releases/download/v#{version}/docgen-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "9df7e30f63b2327e5d91002ecc9498922824dd9837c69602d72f8b413df2ee44"
+      sha256 "f4e5cb1788e4cb2ebd552622f36f32d711c85de8bdcb59a581cd2ba070b10254"
     end
     on_intel do
       url "https://github.com/casoon/typst-business-templates/releases/download/v#{version}/docgen-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e6330837f368393ac881fa878b2a75a27f2c2a517da5c224493339a2dd64b2dc"
+      sha256 "38cf326b99f739b4a78c6427f94a036be76fa577204f2c20e0ec88f6418549ac"
     end
   end
 
