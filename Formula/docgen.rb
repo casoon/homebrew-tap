@@ -2,32 +2,31 @@
 # frozen_string_literal: true
 
 # Homebrew formula for docgen CLI
-# This file should be copied to your homebrew-tap repository
 class Docgen < Formula
   desc "CLI tool for generating professional business documents with Typst"
   homepage "https://github.com/casoon/typst-business-templates"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/casoon/typst-business-templates/releases/download/v#{version}/docgen-aarch64-apple-darwin.tar.gz"
-      sha256 "31397952f8feba53bae1cf143940ca60cc763f1c67086cad281a0231f477d231"
+      sha256 "3d817ee1637d3d00e6e82ecfc4997e7f61cab9ba08a009766567021f109ecdab"
     end
     on_intel do
       url "https://github.com/casoon/typst-business-templates/releases/download/v#{version}/docgen-x86_64-apple-darwin.tar.gz"
-      sha256 "9c77517c979332ec23da03517dc9649128c58681040592f089e36ba943beef28"
+      sha256 "934bc5a9ce29abdffe27e63f50186d94482dfa7c7d6213e5e3bb34c0588ccf10"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/casoon/typst-business-templates/releases/download/v#{version}/docgen-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d56e2a727a79da0efd41624d0da33530ba40d93b3466437ba7bcd970b0deedaf"
+      sha256 "9df7e30f63b2327e5d91002ecc9498922824dd9837c69602d72f8b413df2ee44"
     end
     on_intel do
       url "https://github.com/casoon/typst-business-templates/releases/download/v#{version}/docgen-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "53887e5bb165e0cc46af39ff739fb968e316fc33170ec7dc9e2f5ec2308c43e3"
+      sha256 "e6330837f368393ac881fa878b2a75a27f2c2a517da5c224493339a2dd64b2dc"
     end
   end
 
