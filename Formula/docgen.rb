@@ -6,28 +6,28 @@
 class Docgen < Formula
   desc "CLI tool for generating professional business documents with Typst"
   homepage "https://github.com/casoon/typst-business-templates"
-  version "0.6.3"
+  version "0.6.4"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/casoon/typst-business-templates/releases/download/v#{version}/docgen-aarch64-apple-darwin.tar.gz"
-      sha256 "e50498e3f18b5f920732aeef248ff2e0323fc9c7a57a49d5615c87f464063498"
+      sha256 "d26b18ed0924a241bdf769568254576d6ce249dc22a8ede9cabe219ef087db9e"
     end
     on_intel do
       url "https://github.com/casoon/typst-business-templates/releases/download/v#{version}/docgen-x86_64-apple-darwin.tar.gz"
-      sha256 "569fe0c4c3f1d9e3d8e1241323febfbf8605c6fccfa09da2508e92f1c768fb19"
+      sha256 "10c45b424f67e75d5ff2105091703fd4b87c1e00314d361b2c74e63008547283"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/casoon/typst-business-templates/releases/download/v#{version}/docgen-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2e822ac881e7edc422faf7ab16f303bc06b1477ec2438365c411aa471e3f3ac7"
+      sha256 "7c1e438a9296e34beb88e21907ac5d59d90bc5c8e2c49a416028b45330ce4692"
     end
     on_intel do
       url "https://github.com/casoon/typst-business-templates/releases/download/v#{version}/docgen-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "531fc6157b84ff54113ab2dc8e034ba199cd0e0041806f3069ef0502167d4168"
+      sha256 "e193eddd3c5f5bcb4cb1ad6ecf617084c63640607be854fdd949ee84cfd56aba"
     end
   end
 
