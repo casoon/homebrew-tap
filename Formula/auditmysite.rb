@@ -6,13 +6,13 @@
 class Auditmysite < Formula
   desc "Lightning-fast WCAG accessibility auditing written in Rust"
   homepage "https://github.com/casoon/auditmysite"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/casoon/auditmysite/releases/download/v#{version}/auditmysite-aarch64-apple-darwin.tar.gz"
-      sha256 "PLACEHOLDER_SHA256_ARM64"
+      sha256 "12a3bbc32f97c3077ad45fcc0c1ccffb007e09b8fcc4e5883a5bf9c9270b6293"
     end
     on_intel do
       url "https://github.com/casoon/auditmysite/releases/download/v#{version}/auditmysite-x86_64-apple-darwin.tar.gz"
