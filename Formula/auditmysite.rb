@@ -12,7 +12,7 @@ class Auditmysite < Formula
   on_macos do
     on_arm do
       url "https://github.com/casoon/auditmysite/releases/download/v#{version}/auditmysite-aarch64-apple-darwin.tar.gz"
-      sha256 "12a3bbc32f97c3077ad45fcc0c1ccffb007e09b8fcc4e5883a5bf9c9270b6293"
+      sha256 "ffc4ecc156b379584d356ec0aedb614595def130add5cd7b7a84979a0dc2b838"
     end
     on_intel do
       url "https://github.com/casoon/auditmysite/releases/download/v#{version}/auditmysite-x86_64-apple-darwin.tar.gz"
