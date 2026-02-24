@@ -4,28 +4,28 @@
 class Imgen < Formula
   desc "CLI tool to generate images via the Replicate API"
   homepage "https://github.com/casoon/imgen"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/casoon/imgen/releases/download/v#{version}/imgen-aarch64-apple-darwin.tar.gz"
-      sha256 "600f954ef977302a58e8363edd189b29aeb6624d550f9b2e702331f84403720b"
+      sha256 "83792a428c10d15e06ae31d65690d573fe43c7e498f50b381e5a647e96b2fb05"
     end
     on_intel do
       url "https://github.com/casoon/imgen/releases/download/v#{version}/imgen-x86_64-apple-darwin.tar.gz"
-      sha256 "542627a00d05f7c382eb360e1e43e674fc234b3abc1d35411961a7300cd9c211"
+      sha256 "f91c279700415bcff70ba188f5d64ebc24d30dda7fd3025d5c08e2db27008fcb"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/casoon/imgen/releases/download/v#{version}/imgen-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "54a4f86197716d26eea36ee49a3bfce174e5cf776957e5cc91e5810ab33392b7"
+      sha256 "e97739471cd16af91b54983e08964fc95969eefdd6e68584edb29aed960e3f45"
     end
     on_intel do
       url "https://github.com/casoon/imgen/releases/download/v#{version}/imgen-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0e98c0768c290d2ac0a21c8d7ebd9a30042281b819b83bb983342be7402da690"
+      sha256 "b42d53504fe3229c3c904e67a41203dfeabe647e922028b19c5ba086364f66c7"
     end
   end
 
