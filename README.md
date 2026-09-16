@@ -10,7 +10,7 @@ published with the release.
 | docgen | `curl -fsSL https://raw.githubusercontent.com/casoon/typst-business-templates/main/install.sh \| bash` |
 | imgen | `curl -fsSL https://raw.githubusercontent.com/casoon/imgen/master/install.sh \| sh` |
 | nosecrets | `curl -fsSL https://raw.githubusercontent.com/casoon/nosecrets/main/install.sh \| sh` |
-| auditmysite | see [releases](https://github.com/casoon/auditmysite/releases) |
+| auditmysite | `curl -fsSL https://raw.githubusercontent.com/casoon/auditmysite/main/install.sh \| bash` |
 | renderreport | see [releases](https://github.com/casoon/renderreport/releases) |
 
 If you installed one of these through the tap, remove it with `brew uninstall <tool>` and
