@@ -1,24 +1,20 @@
-# Homebrew Tap for Casoon Tools
+# Homebrew Tap for CASOON Tools
 
-This repository contains Homebrew formulae for tools developed by Casoon.
+**This tap is retired.** CASOON tools are no longer distributed via Homebrew. The formulae here
+were maintained by hand and fell behind their releases; every tool now ships an install script
+that downloads the release archive for your platform and verifies it against the checksums
+published with the release.
 
-## Installation
+| Tool | Install |
+| --- | --- |
+| docgen | `curl -fsSL https://raw.githubusercontent.com/casoon/typst-business-templates/main/install.sh \| bash` |
+| imgen | `curl -fsSL https://raw.githubusercontent.com/casoon/imgen/master/install.sh \| sh` |
+| nosecrets | `curl -fsSL https://raw.githubusercontent.com/casoon/nosecrets/main/install.sh \| sh` |
+| auditmysite | see [releases](https://github.com/casoon/auditmysite/releases) |
+| renderreport | see [releases](https://github.com/casoon/renderreport/releases) |
 
-```
-brew tap casoon/tap
-```
-
-## Available Formulae
-
-### docgen
-
-CLI tool for generating professional business documents with Typst.
-
-```
-brew install casoon/tap/docgen
-```
-
-For more information, see https://github.com/casoon/typst-business-templates
+If you installed one of these through the tap, remove it with `brew uninstall <tool>` and
+`brew untap casoon/tap`, then use the install script instead.
 
 ## License
 
